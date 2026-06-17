@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-automator-backend",
+  "version": "1.0.0",
+  "description": "Backend para o Desafio Técnico - Disparador WhatsApp com Fluxos Automáticos",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.36.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

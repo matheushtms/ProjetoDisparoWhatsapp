@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Build directories
+dist/
+**/dist/
+dist-ssr/
+build/
+.next/
+out/
+
+# Environment files (sensitive keys)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+backend/database.sqlite
+
+# WhatsApp tokens / session cache
+backend/tokens/
+**/tokens/
+
+# Uploaded files
+backend/uploads/
+**/uploads/
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
